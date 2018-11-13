@@ -1,37 +1,43 @@
-## Welcome to GitHub Pages
+!doctype html>
 
-You can use the [editor on GitHub](https://github.com/Ragboyjay/Test2/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+<html lang="en">
+<head>
+    <meta charset="utf-8">
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+    <title>The HTML5 Herald</title>
+    <meta name="description" content="The HTML5 Herald">
+    <meta name="author" content="SitePoint">
 
-### Markdown
+    <link rel="stylesheet" href="css/styles.css?v=1.0">
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+</head>
 
-```markdown
-Syntax highlighted code block
+<body>
+<div id="wrapper">
+    <div id="top" class="clear-fix">
+        <div id="logo">
+            <a href="index.html"><img src="images/traventure.png" height="130" width="163"/></a>
+        </div>
+        <div id="menu" align="left">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+            </ul>
+        </div>
+    </div>
+    <div id="main">
+        <div id="content">
+            <img src="images/background-boardwalk-clouds-808465 (1).jpg" height="199" width="291"/>
+            <p>
+                Mountains
+            </p>
+            <p>
+                This is some text for the bottom of the picture. 199x291
+            </p>
+        </div>
+    </div>
+</div>
 
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/Ragboyjay/Test2/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+<script src="js/scripts.js"></script>
+</body>
+</html>
